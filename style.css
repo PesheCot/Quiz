@@ -1,0 +1,72 @@
+.h1{
+position: absolute;
+height: 50px;
+left: 30px;
+right: 30px;
+top: 45px;
+font-family: 'Golos';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 50px;
+color: #000000;
+}
+
+h3{
+position: absolute;
+height: 26px;
+left: 30px;
+right: 30px;
+top: 120px;
+font-family: 'Golos';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #000000;
+}
+
+.info{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px;
+gap: 5px;
+position: absolute;
+width: 940px;
+height: 86px;
+left: 30px;
+top: 180px;
+background: #FFEFE0;
+border-radius: 10px;
+}
+
+.info__content{
+    width: 885px;
+    height: 56px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #494949;
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+}
+
+.but{
+position: fixed;
+top: 320px;
+background: #E9262D;
+color: #FFEFE0;
+width: 95%;
+margin: 30px auto;
+padding: 10px;
+font-weight: bold;
+}
+
+.but:hover{
+background: #e74e53;
+transition: 1s;
+}
